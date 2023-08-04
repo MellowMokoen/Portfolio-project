@@ -12,6 +12,7 @@ h6 {
 :root {
   --primary-color : black;
   --border : 1px solid #DC3545;
+  --paragraph-font : cursive;
 }
 
 p {
@@ -95,6 +96,12 @@ h2 {
   .hero {
     padding: 80px 20px;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+    
+  }
 }
 
 .about-heading{
@@ -121,4 +128,22 @@ h2 {
 
 .navbar-brand{
   margin-left: 90px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--paragraph-font);
+
+}
+
+.about-section{
+  padding: 120px 60px;
+}
+
+.about-section-content{
+  margin: 30px;
 }
