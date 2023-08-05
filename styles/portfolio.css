@@ -4,19 +4,24 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-}
-
-:root {
-  --primary-color : black;
-  --border : 1px solid #DC3545;
-  --paragraph-font : cursive;
+  color: green;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
 p {
-  font-family: cursive;
+  color: var(--primary-color);
+}
+
+:root {
+  --primary-color : #DC3545;
+  --border : 1px solid green;
+  --paragraph-font : poppins;
+  --box-shadow: 5px 5px 5px black;
+}
+
+p {
+  
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -45,7 +50,6 @@ h2 {
 }
 
 .hero h2 {
-  font-family: cursive;
   font-weight: normal;
   line-height: 1.5;
   font-size: 20px;
@@ -58,21 +62,25 @@ h2 {
 
 .btn-branding {
   color: var(--primary-color);
+  box-shadow: var(--box-shadow);
   border: var(--border);
   border-radius: 10px;
   font-size: 18px;
   padding: 15px 20px;
   line-height: 1.5;
+  font-weight: bold;
   margin: 20px;
 }
 
 .btn-branding-outline {
   color: var(--primary-color);
+  box-shadow: var(--box-shadow);
   border: var(--border);
   border-radius: 10px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  font-weight: bold;
 }
 
 .project-description {
@@ -97,9 +105,9 @@ h2 {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
-    padding: 0;
+    padding : 0;
     
   }
 }
@@ -130,17 +138,26 @@ h2 {
   margin-left: 90px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
-  font-family: var(--paragraph-font);
 
 }
 
-.about-section{
+.content h3 {
+  font-size: 24px;
+  margin: 20px 0 0;
+  
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content{
   padding: 120px 60px;
 }
 
