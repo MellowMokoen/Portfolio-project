@@ -18,38 +18,35 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Mellow</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="/about.html">About me</a>
-            <a class="nav-link" href="/contact.html#contact">Contact me</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="/images/logo.png" class="logo d-none d-md-block" />
+          <img src="/images/logo-small.png" class="logo d-block d-md-none" />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact-me.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="hero">
       <p>Hello, I am</p>
       <h1>Mamello Mokoena</h1>
       <h2 class="mb-5">Front-end Developer based in South Africa</h2>
       <div class="hero-links">
         <a href="/contact.html#contact" class="btn btn-branding">Contact me</a>
-        <a href="/about.html" class="btn btn-branding">About me</a>
       </div>
     </div>
     <p class="text-center m-5">Below are my projects</p>
