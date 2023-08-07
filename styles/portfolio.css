@@ -187,8 +187,12 @@ h2 {
   font-size: 14px;
 }
 
-.content{
-  padding: 120px 60px;
+.content-container {
+  padding: 110px 60px;
+}
+
+.content a {
+  color: var(--primary-color);
 }
 
 .about-section-content{
